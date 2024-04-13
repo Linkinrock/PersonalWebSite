@@ -7,32 +7,54 @@ body{
     margin: 0;
 }
 
-header h1 {
+header {
+    padding: 20px;
+    margin-bottom: 40px;
+    background-color: #044444;
+}
+
+button.back2top {
+    position: fixed;
+    bottom: 90px;
+    left: 95%;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: #fbfcda;
+    border: 2px solid #044444;
     text-align: center;
+    color: #0e5c5c;
 }
 
-article {
-    font-family: 'Times New Roman', Times, serif;
-}
-
-section img {
+img.profilepic {
     border-radius: 50% 50%;
-    max-width: 250px;
-    height: 250px;
+    max-width: 400px;
+    max-height: 250px;
+    border: 2px solid;
+    border-color: #fbfcda;
+}
+
+img.social_media {
+    background-color: azure;
+    border-radius: 50% 50%;
+    border: 2px solid #fbfcda;
+    max-width: 50px;
+    height: 50px;
+    margin: 4% 10px 0px 4%;
 }
 
 .profile {
     float: left;
-    width: 40%;
-    margin-left: 15%;
+    width: 30%;
+    margin-left: 20%;
 }
 
 aside.introduction {
-    float: left;
-    width: 40%;
+    float: right;
+    width: 30%;
     color: #fbfcda;
     font-weight: bold;
-    margin-right: 50px;
+    margin-right: 18%;
 }
 
 hr.profile_division {
@@ -50,6 +72,135 @@ aside {
 
 .clearfixing {
     clear: both;
+}
+
+div.theline {
+    display: block;
+    width: 100%;
+    height: 10px;
+    background-color: #fbfcda;
+    margin-top: 80px;
+    margin-bottom: 70px;
+}
+
+span.infotitle {
+    display: block;
+    width: 20%;
+    height: 60px;
+    position: relative;
+    left: 40%;
+    right: 40%;
+    bottom: 26px;
+    border: 3px solid;
+    border-color: #008080;
+    background-color: #fbfcda;
+    font-family: Jacques Francois Shadow;
+    font-weight: Regular;
+    font-size: 40px;
+    color: #0e5c5c;
+    text-align: center;
+}
+
+span.section_title {
+    display: inline;
+    text-align: center;
+    color: #fbfcda;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.skill_title {
+    display: block;
+    text-align: center;
+    color: #008080;
+    width: 100px;
+    height: 20px;
+    border-radius: 15% 15%;
+    background-color: #fbfcda;
+    margin: 8% 10% 10% 10%;
+}
+
+.flex_container_horizontal {
+    display: flex;
+    padding: 5px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex_container_horizontal_2 {
+    display: flex;
+    padding: 5px;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.item_catogory {
+    width: 400px;
+    margin: 0px 5% 30px 5%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    background-color: #fbfcda;
+    font-family: Jacques Francois Shadow;
+    font-size: larger;
+    color: #0e5c5c;
+    text-align: center;
+}
+
+.flex_container_vertical {
+    display: flex;
+    margin: 10px;
+    padding: 5px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.item_programming {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    margin-right: 100%;
+    color: azure;
+    justify-content: right;
+    align-items: right;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+.item_language {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    color: azure;
+    justify-content: right;
+    align-items: right;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+.item_others {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    margin-left: auto;
+    color: azure;
+    justify-content: right;
+    align-items: right;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+div.exp {
+    float: left;
+    width: 30%;
+    background-color: #fbfcda;
+    border-radius: 30px;
+    padding: 10px;
+    padding-left: 20px;
+    margin: 10px;
+    font-family: Jacques Francois Shadow;
+    font-size: 50px;
+    color: #0e5c5c;
+    text-align: left;
 }
 
 footer {
